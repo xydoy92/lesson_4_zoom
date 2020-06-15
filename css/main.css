@@ -1,0 +1,27 @@
+body {
+    background-color: burlywood;
+}
+.box {
+    width: 100%;
+    margin: 10% auto;
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+    overflow: hidden;
+    width: 350px;
+    height: 300px;
+    margin: 15px;
+    border: 5px solid cornflowerblue;
+}
+
+figure > img {
+    transition: 0.5s ease;
+    height: 100%;
+}
+
+figure:hover > img {
+    transform: scale(1.2) rotate(-5deg);
+    cursor: pointer;
+}
